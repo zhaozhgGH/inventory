@@ -4,7 +4,7 @@
 # 运行
 ## 下载：
 ```
-git clone https://github.com/damingerdai/inventory.git
+git clone https://github.com/zhaozhgGH/inventory.git
 ```
 
 ## 数据库
@@ -18,7 +18,8 @@ git clone https://github.com/damingerdai/inventory.git
 npm install && ng build --prod
 ```
 
-## 执行（切换到pom.xml文件所在目录，否则会报错：No plugin found for prefix 'spring-boot' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] ...）
+## 执行
+1. 切换到pom.xml文件所在目录，否则会报错：No plugin found for prefix 'spring-boot' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] ...
 ```
 mvn spring-boot:run
 ```
